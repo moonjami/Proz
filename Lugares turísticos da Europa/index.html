@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos na Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            padding: 1em;
+            text-align: center;
+            color: white;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .destination-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .destination-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .destination-info {
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lugares Turísticos na Europa</h1>
+    </header>
+
+    <section>
+        <div class="destination-card">
+            <img class="destination-image" src="/img/paris.jpg" alt="Paris, França">
+            <div class="destination-info">
+                <h2>Paris, França</h2>
+                <p>A cidade do amor e da luz, famosa pela Torre Eiffel, Museu do Louvre e pela charmosa arquitetura.</p>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img class="destination-image" src="/img/rome.jpg" alt="Roma, Itália">
+            <div class="destination-info">
+                <h2>Roma, Itália</h2>
+                <p>Explore o Coliseu, o Vaticano e a rica história romana nesta cidade eterna.</p>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img class="destination-image" src="/img/barcelona.jpg" alt="Barcelona, Espanha">
+            <div class="destination-info">
+                <h2>Barcelona, Espanha</h2>
+                <p>Desfrute da arquitetura única de Gaudí, praias ensolaradas e uma animada vida noturna.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
